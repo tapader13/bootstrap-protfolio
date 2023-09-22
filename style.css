@@ -1,0 +1,145 @@
+header {
+    z-index: 500;
+}
+
+.custom-navbar {
+    background-color: rgba(61, 179, 197, 0.8);
+}
+
+.custom-navbar a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+}
+
+.custom-navbar .navbar-nav .nav-link .active {
+    --bs-navbar-active-color: unset;
+    color: white !important;
+}
+
+.custom-dropdown {
+    background-color: rgba(61, 179, 197, 0.8);
+    --bs-dropdown-link-active-color: unset;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+.navbar-collapse ul {
+    justify-content: space-evenly;
+}
+
+.navbar-collapse ul li {
+    margin-inline: 1.5rem;
+}
+
+.custom-hero {
+    background-color: rgba(61, 179, 197, 0.8);
+    /* height: 90vh; */
+    /* text-align: center; */
+}
+
+.img-hero img {
+    width: 100%;
+}
+
+.custom-hero .icons i {
+    font-size: 1.3rem;
+    margin-left: .7rem;
+    cursor: pointer;
+    color: bisque;
+}
+
+.container .card {
+    border: none;
+}
+
+.container .row h1 {
+    font-size: 3rem;
+
+    margin: auto;
+    color: rgba(61, 179, 197, 0.8);
+}
+
+.custom-project .row {
+    margin-block: 2rem;
+}
+
+.custom-team .icons i {
+    margin-left: 1rem;
+    margin-right: .7rem;
+    font-size: 1.2rem;
+    color: rgba(61, 179, 197, 0.8);
+}
+
+
+
+.custom-team .card-body img {
+    height: 130px;
+    width: 130px;
+    border: 2px solid rgb(154, 135, 135);
+    border-radius: 50%;
+
+
+}
+
+.custom-skills .progress {
+    --bs-progress-height: 1rem;
+}
+
+.custom-review {
+    background-color: brown;
+}
+
+.custom-review .carousel-item {
+    background-color: white;
+    margin-block: 5rem;
+    padding: 10rem 5rem;
+    border-radius: 20px;
+}
+
+.custom-review .carousel-item img {
+    max-width: 5rem;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    padding-bottom: 3.25rem;
+}
+
+.carousel-indicators {
+    bottom: -15px;
+}
+
+
+
+.custom-review .carousel-indicators button {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-inline: 1rem;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li a {
+    color: white;
+    font-weight: 700;
+}
+
+ul li a:hover {
+    color: brown;
+}

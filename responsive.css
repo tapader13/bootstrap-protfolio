@@ -1,0 +1,51 @@
+@media(max-width:988px) {
+    .custom-dropdown {
+        border: none;
+
+        background-color: transparent;
+        --bs-dropdown-link-active-color: unset;
+    }
+}
+
+@media(max-width:573px) {
+    .custom-hero-content {
+        margin-bottom: 1.3rem;
+    }
+}
+
+@media(max-width:748px) {
+    .custom-skills .progress {
+        --bs-progress-height: 1rem;
+    }
+
+    .custom-skills .progress-bar {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:765px) {
+    .container .row h1 {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:1016px) {
+    .carousel-caption {
+        padding-bottom: 1.25rem;
+    }
+}
+
+@media(max-width:570px) {
+    .custom-review .carousel-item {
+        background-color: white;
+        margin-block: 2rem;
+        padding: 10rem 5rem;
+        border-radius: 20px;
+    }
+
+    .carousel-caption {
+        left: 5%;
+        right: 5%;
+        padding-bottom: 0.25rem;
+    }
+}
